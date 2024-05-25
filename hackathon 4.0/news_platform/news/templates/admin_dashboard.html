@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Local News Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #8c0202;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .dashboard {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .dashboard h2 {
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f55353;
+        }
+
+        .actions button {
+            padding: 5px 10px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .actions .approve {
+            background-color: #038421;
+            color: #fff;
+        }
+
+        .actions .edit {
+            background-color: #ffc004;
+            color: #fff;
+        }
+
+        .actions .reject {
+            background-color: #ff0019;
+            color: #fff;
+        }
+
+        .actions button:hover {
+            opacity: 0.8;
+        }
+
+        footer {
+            background-color: #ff0000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Admin Dashboard</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="article_list.html">Articles</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="event_list.html">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="admin_dashboard.html">Dashboard</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="dashboard">
+                <h2>Pending Submissions</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Submitted By</th>
+                            <th>Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Event Name 1</td>
+                            <td>Event</td>
+                            <td>John Doe</td>
+                            <td>2024-05-24</td>
+                            <td class="actions">
+                                <button class="approve">Approve</button>
+                                <button class="edit">Edit</button>
+                                <button class="reject">Reject</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Article Title 1</td>
+                            <td>Article</td>
+                            <td>Jane Smith</td>
+                            <td>2024-05-23</td>
+                            <td class="actions">
+                                <button class="approve">Approve</button>
+                                <button class="edit">Edit</button>
+                                <button class="reject">Reject</button>
+                            </td>
+                        </tr>
+                        <!-- Add more submissions as needed -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local News Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

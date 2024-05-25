@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - Local News Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .category-list {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .category-list h2 {
+            margin-top: 0;
+        }
+
+        .categories {
+            list-style: none;
+            padding: 0;
+        }
+
+        .categories li {
+            margin: 10px 0;
+        }
+
+        .categories li a {
+            display: block;
+            padding: 10px;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .categories li a:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Categories</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="article_list.html">Articles</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="event_list.html">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="category-list">
+                <h2>All Categories</h2>
+                <ul class="categories">
+                    <li><a href="category_articles.html?category=News">News</a></li>
+                    <li><a href="category_articles.html?category=Sports">Sports</a></li>
+                    <li><a href="category_articles.html?category=Entertainment">Entertainment</a></li>
+                    <li><a href="category_articles.html?category=Technology">Technology</a></li>
+                    <li><a href="category_articles.html?category=Health">Health</a></li>
+                    <li><a href="category_articles.html?category=Events">Events</a></li>
+                    <!-- Add more categories as needed -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local News Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

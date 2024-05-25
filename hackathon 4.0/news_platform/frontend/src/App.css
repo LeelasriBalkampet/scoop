@@ -1,0 +1,28 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header, nav, main, footer {
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.category-dropdown {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event List - Local News Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #444;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        main section {
+            margin-bottom: 20px;
+        }
+
+        main section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .event {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .event h3 {
+            margin-top: 0;
+        }
+
+        .event p {
+            margin: 10px 0;
+        }
+
+        .event .event-details {
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Upcoming Events</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="article_list.html">Articles</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="event_list.html">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <section id="event-list">
+                <h2>All Upcoming Events</h2>
+                <div class="event">
+                    <h3>Event Name 1</h3>
+                    <p class="event-details">Date: June 1, 2024 | Location: Community Center</p>
+                    <p>Description of the event. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ligula nisi.</p>
+                </div>
+                <div class="event">
+                    <h3>Event Name 2</h3>
+                    <p class="event-details">Date: June 15, 2024 | Location: City Park</p>
+                    <p>Description of the event. Vivamus vel risus nulla. Donec gravida, odio non consectetur ultricies, ipsum libero consectetur lorem.</p>
+                </div>
+                <div class="event">
+                    <h3>Event Name 3</h3>
+                    <p class="event-details">Date: July 1, 2024 | Location: Downtown Plaza</p>
+                    <p>Description of the event. Nulla facilisi. Duis in diam ut turpis consequat gravida. Vivamus dignissim, nunc eget fermentum ullamcorper.</p>
+                </div>
+                <!-- Add more events as needed -->
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Local News Platform. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
